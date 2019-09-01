@@ -1,0 +1,24 @@
+# See https://EditorConfig.org
+#
+# PyCharm support:
+# - https://www.jetbrains.com/help/pycharm/configuring-code-style.html#editorconfig
+#
+# Visual Studio Code:
+# - https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+# - https://github.com/editorconfig/editorconfig-vscode
+#
+# Emacs:
+# - https://github.com/editorconfig/editorconfig-emacs#readme
+
+# top-most EditorConfig file
+root = true
+
+[*.{cls,dtx,lay,ldf,sty,tex,txt}]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# CRLF line endings
+[*.bat]
+end_of_line = crlf
